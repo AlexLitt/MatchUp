@@ -37,6 +37,8 @@ ul {
   padding-top: 1%;
   color: #7d83a4;
   text-decoration: none;
+  font-size:25px;
+  color: white;
 }
 
 .header__nav {
@@ -46,28 +48,33 @@ ul {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  margin-left: 75%;
+  margin-left: 60%;
 }
 
 .nav__item {
-  margin-left: 10%;
+  font-size: 20px;
+  margin-left:10%;
+
 }
 
 .nav__item a {
-  color: #7d83a4;
+  color: white;
   text-decoration: none;
 }
 
 .header__container {
-  padding-bottom: 5%;
+  padding-bottom: 9%;
 }
 
 .header__motto {
   padding-top: 3%;
   padding-bottom: 3%;
   text-align: center;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size:25px;
+  color: white;
+  font-weight: 600;
 }
 
 .header__link {
@@ -93,7 +100,6 @@ ul {
 .emp__for{
   text-align: center;
   font-size: 25px;
-  padding-bottom: 1%;
 }
 
 .student__block,
@@ -104,13 +110,15 @@ ul {
   display: -o-flex;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 7%;
 }
 
 .student__text--begin {
   padding-top: 40%;
 }
 
-.student__text {
+.student__text,
+.emp__text {
   padding-bottom: 7%;
   text-align: center;
   font-size: 23px;
@@ -135,7 +143,6 @@ ul {
 }
 
 .student__advantages {
-  padding-top: 5%;
   padding-bottom: 20%;
 }
 
@@ -155,10 +162,94 @@ ul {
 
 .life__container {
   background-color: #45446c;
-  padding-top: 8%;
   padding-bottom: 8%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
 }
 
+.life__headline {
+  padding-top: 4%;
+  color: white;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size:45px;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.life__button {
+  text-decoration: none;
+  background-color: #ffd22d;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1.25%;
+  padding-bottom: 1.25%;
+  border-radius: 3%;
+  color: #45446c;
+  margin-left: 38%;
+}
+
+.life-container__img {
+  position: absolute;
+}
+
+.life__img {
+  position: absolute;
+  left: 800px;
+  top: -200px;
+}
+
+.emp__for {
+  padding-top:5%;
+}
+
+.advantages__image {
+  padding-left: 30%;
+}
+
+.advantages__text {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.advantages__item {
+  text-align: center;
+  padding-top: %;
+  padding-bottom: %;
+  font-size:25px;
+  font-weight: 600;
+  color: #45446c;
+}
+
+.form__container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+.footer {
+  background-color:#45446c;
+}
+
+.footer__container {
+  width: 80%;
+  margin: 0 auto;
+  padding:1% 0%;
+}
+
+.footer__copyright {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
 
 
 
