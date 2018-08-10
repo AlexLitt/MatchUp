@@ -206,6 +206,10 @@ ul {
   padding-top:5%;
 }
 
+.advantages__block {
+  width: 30%;
+}
+
 .advantages__image {
   padding-left: 30%;
 }
