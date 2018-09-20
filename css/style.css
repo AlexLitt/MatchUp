@@ -157,7 +157,7 @@ ul {
 }
 
 .advantages__block {
-  outline: 1px solid red;
+  outline: 1px solid black;
 }
 
 .life__container {
@@ -204,6 +204,10 @@ ul {
 
 .emp__for {
   padding-top:5%;
+}
+
+.emp__advantages {
+  background-color: #7d83a4;
 }
 
 .advantages__block {
