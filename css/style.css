@@ -17,7 +17,7 @@ ul {
 /* Сделать бургер меню */
 
 .header {
-  background-color: #45446c;
+  background-image: linear-gradient(to right bottom, #45446c, #44437d, #43418e, #423e9f, #423aaf);
 }
 
 .header__block {
@@ -31,6 +31,7 @@ ul {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  padding-top: 2%;
 }
 
 .header__logo {
@@ -67,8 +68,8 @@ ul {
 }
 
 .header__motto {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
@@ -78,15 +79,23 @@ ul {
 }
 
 .header__link {
-  margin-left: 40%;
-  text-decoration: none;
-  background-color: #ffd22d;
+  margin-left: 41% ;
   padding-left: 3.5%;
   padding-right: 3.5%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   border-radius: 3%;
-  color: #45446c;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #ffd22d;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  -webkit-box-shadow: 10px 14px 23px -3px rgba(0,0,0,0.7);
+  -moz-box-shadow: 10px 14px 23px -3px rgba(0,0,0,0.7);
+  box-shadow: 10px 14px 23px -3px rgba(0,0,0,0.7);
 }
 
 .main__headline {
@@ -94,12 +103,19 @@ ul {
   padding-bottom: 4%;
   padding-top: 4%;
   font-size: 50px;
+  text-transform: uppercase;
 }
 
 .student__for,
 .emp__for{
-  text-align: center;
+  margin-left: 73%;
   font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.emp__for {
+  margin-left: 23%;
 }
 
 .student__block,
@@ -113,8 +129,9 @@ ul {
   padding-bottom: 7%;
 }
 
+
 .student__text--begin {
-  padding-top: 40%;
+  padding-top: 10%;
 }
 
 .student__text,
@@ -122,25 +139,26 @@ ul {
   padding-bottom: 7%;
   text-align: center;
   font-size: 23px;
+  padding-top: 3%;
 }
+
+.emp__button {
+    margin-left: 34%;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 4%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+}
+
 
 .student__text--end {
-  padding-bottom: 13%;
+  padding-bottom: 25%;
 }
 
-.student__button {
-  margin-left: 30%;
-  text-decoration: none;
-  background-color: #45446c;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  border-radius: 3%;
-  color:#ffd22d;
-  font-size: 20px;
-  margin-top: 5%;
-}
 
 .student__advantages {
   padding-bottom: 20%;
@@ -156,8 +174,27 @@ ul {
   justify-content: space-around;
 }
 
+.student__button {
+  text-decoration: none;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 3%;
+  margin-left: 28%;
+}
+
+.emp-advantages__container {
+  padding-top: 4%;
+}
+
+
 .advantages__block {
   outline: 1px solid black;
+}
+
+.life__wrapper {
+  width: 50%;
 }
 
 .life__container {
@@ -171,25 +208,22 @@ ul {
 }
 
 .life__headline {
-  padding-top: 4%;
+  padding-top: 7%;
   color: white;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 15%;
   font-size:45px;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
   text-align: center;
 }
 
 .life__button {
   text-decoration: none;
-  background-color: #ffd22d;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: 1.25%;
-  padding-bottom: 1.25%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  padding-top: 3.5%;
+  padding-bottom: 3.5%;
   border-radius: 3%;
-  color: #45446c;
-  margin-left: 38%;
+  margin-left: 44%;
 }
 
 .life-container__img {
@@ -206,27 +240,25 @@ ul {
   padding-top:5%;
 }
 
-.emp__advantages {
-  background-color: #7d83a4;
-}
 
 .advantages__block {
   width: 30%;
 }
 
 .advantages__image {
-  padding-left: 30%;
+  padding-left: 35%;
 }
 
 .advantages__text {
-  padding-left: 5%;
-  padding-right: 5%;
+  text-align: center;
+  font-size: 18px;
 }
 
 .advantages__item {
   text-align: center;
-  padding-top: %;
-  padding-bottom: %;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-transform: uppercase;
   font-size:25px;
   font-weight: 600;
   color: #45446c;
@@ -243,8 +275,53 @@ ul {
   padding-bottom: 5%;
 }
 
+.form__wrapper {
+  width: 25%;
+}
+
+.form__name,
+.form__email,
+.form__textarea {
+  width: 80%;
+
+}
+
+.form__name,
+.form__email,
+.form__textarea {
+  padding: 5%;
+  font-size: 16px;
+}
+
+.form {
+  width: 80%;
+  margin-left: 5%;
+}
+
+.form__text {
+  margin-bottom: 3%;
+  font-size: 20px;
+}
+
+.form__input {
+  background-color: #ffd22d;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  border-radius: 3%;
+  margin-left: 24%;
+  margin-top: 10%;
+  box-shadow: 10px 14px 23px -3px rgba(0,0,0,0.7);
+  font-weight: 600;
+}
+
+
 .footer {
-  background-color:#45446c;
+  background-color: #45446c;
 }
 
 .footer__container {
@@ -258,20 +335,3 @@ ul {
   color: white;
   font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
