@@ -17,7 +17,7 @@ ul {
 /* Сделать бургер меню */
 
 .header {
-  background-image: linear-gradient(to right bottom, #45446c, #44437d, #43418e, #423e9f, #423aaf);
+  background-image: linear-gradient(to right top, #45446c, #444374, #42417d, #404085, #3e3e8d);
 }
 
 .header__block {
@@ -96,9 +96,7 @@ ul {
   color: white;
   text-transform: uppercase;
   font-size: 18px;
-  -webkit-box-shadow: 10px 14px 23px -3px rgba(0,0,0,0.7);
-  -moz-box-shadow: 10px 14px 23px -3px rgba(0,0,0,0.7);
-  box-shadow: 10px 14px 23px -3px rgba(0,0,0,0.7);
+  box-shadow: 0 8px 0 0 #f1a32f;
 }
 
 .main__headline {
@@ -348,7 +346,7 @@ ul {
   border-radius: 3%;
   margin-left: 24%;
   margin-top: 10%;
-  box-shadow: 10px 14px 23px -3px rgba(0,0,0,0.7);
+  box-shadow: 0 8px 0 0 #f1a32f;
   font-weight: 600;
 }
 
@@ -374,6 +372,10 @@ ul {
     font-size:23px;
   }
 
+  .header__nav {
+    margin-left: 42%;
+  }
+
   .nav__item {
     font-size:18px;
   }
@@ -389,7 +391,13 @@ ul {
   }
 
   .main__headline {
-    font-size: 38px;
+    font-size: 35px;
+  }
+
+  .student__img {
+    width: 80%;
+    padding-left: 5%;
+    padding-top: 5%;
   }
 
   .student__text {
@@ -397,7 +405,8 @@ ul {
   }
 
   .student__button {
-    margin-left: 24%;
+    margin-left: 27%;
+    font-size: 16px;
   }
 
   .advantages__item {
@@ -408,12 +417,27 @@ ul {
     font-size:17px;
   }
 
-  .life__header {
-    font-size:34px;
+  .life__wrapper {
+    width: 65%;
+  }
+
+  .life__headline {
+    font-size:26px;
   }
 
   .life__button {
-    margin-left: 36%;
+    margin-left: 40%;
+    font-size: 16px;
+  }
+
+  .life__img {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .emp-text__container {
+    width: 50%;
+    margin-left: 5%;
   }
 
   .emp__text {
@@ -424,11 +448,429 @@ ul {
     margin-left: 29%;
     padding-left: 3%;
     padding-right: 3%;
+    font-size:16px;
+  }
+
+  .emp__img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .advantages__image {
+    padding-left: 33%;
+    width: 41%;
+  }
+
+  .form__text {
+    font-size: 16px;
+  }
+
+  .form__input {
+    font-size: 16px;
+  }
+
+  .form__img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+}
+
+@media (max-width: 767.98px) {
+
+  .header__logo {
+    font-size:20px;
+  }
+
+  .header__nav {
+    margin-left: 35%;
+  }
+
+  .nav__item {
+    font-size:17px;
+  }
+
+  .header__link {
+    margin-left: 37%;
+    font-size: 15px;
+  }
+
+  .header__motto {
+    padding-left: 18%;
+    padding-right: 18%;
+    font-size:20px;
+  }
+
+  .main__headline {
+    font-size: 30px;
+  }
+
+  .student__img {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .student__text {
+    font-size:18px;
+    margin-right: 5%;
+  }
+
+  .student__button {
+    margin-left: 22%;
+    font-size: 14px;
+  }
+
+  .advantages__image {
+    width: 47%;
+  }
+
+  .advantages__item {
+    font-size:18px;
+  }
+
+  .advantages__text {
+    font-size:15px;
+  }
+
+  .life__wrapper {
+    width: 65%;
+  }
+
+  .life__headline {
+    font-size:21px;
+  }
+
+  .life__button {
+    margin-left: 38%;
+    font-size: 13px;
+  }
+
+  .life__img {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .emp__text {
+    font-size:18px;
+  }
+
+  .emp__button {
+    margin-left: 31%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size:14px;
+  }
+
+  .advantages__image {
+    padding-left: 33%;
+    width: 41%;
   }
 
 
 }
 
-@media (max-width: 575.98px) { ... }
+@media (max-width: 625px) {
+  .header__logo {
+    font-size:18px;
+  }
 
-@media (max-width: 767.98px) { ... }
+  .header__nav {
+    margin-left: 32%;
+  }
+
+  .nav__item {
+    font-size:15px;
+  }
+
+  .header__motto {
+    font-size:18px;
+  }
+
+  .header__link {
+    font-size: 14px;
+  }
+
+  .main__headline {
+    font-size: 26px;
+  }
+
+  .student__img {
+    margin-top: 15%;
+  }
+
+  .student-text__container {
+    width: 80%;
+  }
+
+  .student__text {
+    font-size:16px;
+    margin-right: 5%;
+  }
+
+  .student__button {
+    margin-left: 25%;
+    font-size: 12px;
+  }
+
+  .advantages__image {
+    padding-left: 28%;
+    width: 55%;
+  }
+
+  .advantages__item {
+    font-size:16px;
+  }
+
+  .advantages__text {
+    font-size:14px;
+  }
+
+  .life__wrapper {
+    width: 65%;
+  }
+
+  .life__headline {
+    font-size:18px;
+  }
+
+  .life__button {
+    margin-left: 36%;
+    font-size: 12px;
+  }
+
+  .life__img {
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .emp__img {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 20%;
+  }
+
+  .emp-text__container {
+    padding-top: 6%;
+    padding-left: 5%;
+  }
+
+  .emp__text {
+    font-size:16px;
+  }
+
+  .emp__button {
+    margin-left: 23%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size:12px;
+  }
+
+  .advantages__image {
+    padding-left: 33%;
+    width: 41%;
+  }
+
+  .form__wrapper {
+    width: 50%;
+  }
+
+  .form__input {
+    font-size: 15px;
+  }
+
+  .form__img {
+    width: 80%;
+    margin-left: 10%;
+  }
+ }
+
+ @media (max-width: 525px) {
+
+   .header__logo {
+     font-size:16px;
+   }
+
+   .header__nav {
+     margin-left: 32%;
+   }
+
+   .nav__item {
+     font-size:13px;
+   }
+
+   .header__motto {
+     font-size:16px;
+   }
+
+   .header__link {
+     font-size: 12px;
+   }
+
+   .main__headline {
+     font-size: 22px;
+   }
+
+   .student__text {
+     font-size:14px;
+   }
+
+   .student__button {
+     font-size: 9px;
+   }
+
+   .emp__text {
+     font-size:14px;
+   }
+
+   .emp__button {
+     font-size:9px;
+   }
+
+  .advantages__image {
+    padding-left: 28%;
+    width: 55%;
+  }
+
+  .advantages__item {
+    font-size: 14px;
+  }
+
+  .life__wrapper {
+    width: 90%;
+   }
+
+  .life__headline {
+    font-size: 13px;
+   }
+
+  .life__button {
+    font-size: 9px;
+   }
+
+   .form__input {
+     font-size: 9px;
+   }
+ }
+
+ @media (max-width: 480px) {
+   /*сделать бургер меню */
+  .header__nav {
+    display: none;
+   }
+
+  .student__block {
+    display:inline-block;
+  }
+
+  .student__img {
+    margin: 0;
+    padding-left: 15%;
+    padding-top: 0;
+    width: 70%;
+  }
+
+  .student-text__container {
+    margin: 0;
+    padding-left: 15%;
+  }
+
+  .student__button {
+    margin-left: 35%;
+  }
+
+  .student__advantages {
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  .student-advantages__container {
+    display: inline-block;
+  }
+
+  .advantages__text {
+    display:none;
+  }
+
+  .advantages__block {
+    width: 100%;
+    margin-left: 55%;
+    margin-top: 10%;
+  }
+
+  .life__container {
+    display: inline-block;
+  }
+
+  .life__headline {
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+
+  .life__button {
+    margin-left: 45%;
+  }
+
+  .life__img {
+    width: 70%;
+    margin-top: 25%;
+  }
+
+  .emp__block {
+    flex-direction: column;
+  }
+
+  .emp-img__container {
+    order: -1;
+  }
+
+  .emp__img {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .emp-text__container {
+    padding-left: 20%;
+  }
+
+  .emp__button {
+    margin-left: 30%;
+  }
+
+  .emp-advantages__container {
+    display:inline-block;
+  }
+
+  .emp__advantages {
+    padding-bottom: 10%;
+  }
+
+  .form__img {
+    display: none;
+  }
+
+  .form {
+    margin-left: 10%;
+  }
+
+  .form__wrapper {
+    width: 80%;
+  }
+
+  .form__text {
+    color:#f1a32f;
+  }
+
+  .form__container {
+    background-color:#45446c;
+    padding-top: 10%;
+  }
+
+  .form__input {
+    margin-left: 35%;
+  }
+
+
+
+
+ }
