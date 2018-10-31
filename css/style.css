@@ -101,7 +101,7 @@ ul {
 
 .main__headline {
   text-align: center;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
   padding-top: 4%;
   font-size: 50px;
   text-transform: uppercase;
@@ -139,12 +139,20 @@ ul {
 }
 
 .student__text {
-  padding-top: 3%;
+  padding-top: 0%;
+  margin: 0%;
+  padding-bottom: 7%;
+  padding-top: 7%;
+
 }
 
 .student__img {
   width: 100%;
   height: auto;
+}
+
+.student__arrow {
+  padding-left: 40%;
 }
 
 .emp__button {
@@ -158,8 +166,6 @@ ul {
     margin-top: 5%;
   }
 }
-
-
 
 .emp-text__container {
   width: 50%;
@@ -214,6 +220,8 @@ ul {
   border-radius: 3%;
   margin-left: 30%;
 }
+
+
 
 .emp-advantages__container {
   padding-top: 4%;
@@ -409,6 +417,8 @@ ul {
     font-size: 16px;
   }
 
+
+
   .advantages__item {
     font-size:20px;
   }
@@ -521,6 +531,10 @@ ul {
     font-size: 14px;
   }
 
+  .student__arrow {
+    padding-left: 27%;
+  }
+
   .advantages__image {
     width: 47%;
   }
@@ -600,12 +614,18 @@ ul {
   }
 
   .student-text__container {
-    width: 80%;
+    width: 100%;
   }
 
   .student__text {
     font-size:16px;
     margin-right: 5%;
+    padding: 0;
+    padding-top: 5%;
+  }
+
+  .student__text--end {
+    padding-bottom: 10%;
   }
 
   .student__button {
@@ -759,6 +779,14 @@ ul {
     display: none;
    }
 
+   .header__link {
+     margin-left: 30%;
+   }
+
+   .header__container {
+     padding-bottom: 25%;
+   }
+
   .student__block {
     display:inline-block;
   }
@@ -771,12 +799,11 @@ ul {
   }
 
   .student-text__container {
-    margin: 0;
-    padding-left: 15%;
+    padding-left: 7%;
   }
 
   .student__button {
-    margin-left: 35%;
+    margin-left: 30%;
   }
 
   .student__advantages {
@@ -788,13 +815,17 @@ ul {
     display: inline-block;
   }
 
+  .student__arrow {
+    padding-left: 30%;
+  }
+
   .advantages__text {
     display:none;
   }
 
   .advantages__block {
     width: 100%;
-    margin-left: 55%;
+    margin-left: 30%;
     margin-top: 10%;
   }
 
@@ -834,7 +865,7 @@ ul {
   }
 
   .emp__button {
-    margin-left: 30%;
+    margin-left: 23%;
   }
 
   .emp-advantages__container {
