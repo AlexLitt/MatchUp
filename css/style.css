@@ -401,10 +401,10 @@ ul {
   margin-top:7%;
   margin-bottom: 5%;
   border-radius: 25px;
-  border:none;
   background-color: #d5dae0;
   color: #45446c;
   font-size: 22px;
+  border: 2px solid #C2BDBD;
 }
 
 ::placeholder {
