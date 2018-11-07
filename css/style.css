@@ -32,11 +32,10 @@ ul {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
-  padding-top: 2%;
 }
 
 .header__logo {
-  padding-top: 1%;
+  padding-top: 20%;
   color: #7d83a4;
   text-decoration: none;
   font-size:25px;
@@ -45,7 +44,7 @@ ul {
 
 .header__nav {
   width: 35%;
-  padding-top: 1%;
+  padding-top: 4%;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -204,7 +203,7 @@ ul {
 
 
 .emp-advantages__container {
-  padding-top: 4%;
+  padding-top: 8%;
 }
 
 
