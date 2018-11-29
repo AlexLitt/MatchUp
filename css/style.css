@@ -43,7 +43,7 @@ ul {
 }
 
 .header__nav {
-  width: 35%;
+  width: 40%;
   padding-top: 4%;
   display: -webkit-flex;
   display: -moz-flex;
@@ -51,7 +51,7 @@ ul {
   display: -o-flex;
   display: flex;
   margin:0 auto;
-  margin-left: 50%;
+  margin-left: 55%;
 
 }
 
@@ -65,6 +65,7 @@ ul {
   color: white;
   text-decoration: none;
 }
+
 
 .header__container {
   padding-bottom: 8%;
@@ -119,14 +120,14 @@ ul {
   font-size: 30px;
   margin-top: 0;
   font-family: 'Lato', sans-serif;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .header__icon {
   width: 100%;
   height: auto;
-  padding-bottom: 220%;
+  padding-bottom: 150%;
 }
 
 .header__arrow {
@@ -205,7 +206,7 @@ ul {
 
 .form__img {
   width: 100%;
-  padding-top: 40%;
+  padding-top: 30%;
   padding-left: 20%;
 }
 
@@ -214,7 +215,7 @@ ul {
 }
 
 .student__text--end {
-  padding-bottom: 20%;
+  padding-bottom: 15%;
 }
 
 
@@ -341,8 +342,8 @@ ul {
 .faq-header{
   font-size: 42px;
   border-bottom: 1px dotted #ccc;
-  padding-top: 5%;
-  padding-bottom: 1%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   text-align: center;
 }
 
@@ -455,16 +456,19 @@ ul {
   color: #45446c;
   font-size: 22px;
   border: none;
-  border-bottom: 2px solid #C2BDBD;
+  border-bottom: 2px solid rgb(48, 116, 224);
 }
 
 ::placeholder {
-  color: #45446c;
-  font-size: 15px;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 3%;
+  padding-left: -2%;
+  opacity: 0.6;
 }
 
 .form {
-  width: 80%;
+  width: 100%;
   margin-left: 5%;
 }
 
@@ -564,12 +568,17 @@ ul {
   }
 
   .student__text {
-    font-size:22px;
+    font-size:20px;
   }
 
   .student__button {
-    margin-left: 27%;
+    margin-left: 24%;
     font-size: 16px;
+  }
+
+  .student__arrow {
+    padding-left: 32%;
+    width:30%;
   }
 
   .advantages__item {
@@ -624,6 +633,14 @@ ul {
     width: 41%;
   }
 
+  .faq-header {
+    font-size: 35px;
+  }
+
+  .form__headline {
+    font-size: 30px;
+  }
+
   .form__text {
     font-size: 16px;
   }
@@ -635,7 +652,7 @@ ul {
   .form__img {
     width: 80%;
     margin-left: 10%;
-    padding-top: 16%;
+    padding-top: 40%;
   }
 }
 
@@ -685,7 +702,7 @@ ul {
   }
 
   .student__button {
-    margin-left: 22%;
+    margin-left: 15%;
     font-size: 14px;
   }
 
@@ -734,9 +751,21 @@ ul {
   }
 
   .panel-title {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 8%;
     padding-top: 2%;
+  }
+
+  .form__headline {
+    font-size: 25px;
+  }
+
+  .form__img {
+    padding-top: 50%;
+  }
+
+  .form__input {
+    margin-left: 20%;
   }
 
 
@@ -745,6 +774,14 @@ ul {
 @media (max-width: 625px) {
   .header__logo {
     font-size:18px;
+  }
+
+  .header__main {
+    font-size: 30px;
+  }
+
+  .header__motto {
+    font-size: 15px;
   }
 
   .header__nav {
@@ -769,6 +806,10 @@ ul {
 
   .student-text__container {
     width: 100%;
+  }
+
+  .student__arrow {
+    padding-left: 30%;
   }
 
   .student__text {
@@ -818,26 +859,16 @@ ul {
     margin-left: 15%;
   }
 
-  .emp__img {
-    width: 70%;
-    margin-left: 20%;
-    margin-top: 20%;
+  .faq-header {
+    font-size: 26px;
   }
 
-  .emp-text__container {
-    padding-top: 6%;
-    padding-left: 5%;
+  .plus {
+    font-size: 32px;
   }
 
-  .emp__text {
-    font-size:16px;
-  }
-
-  .emp__button {
-    margin-left: 23%;
-    padding-left: 3%;
-    padding-right: 3%;
-    font-size:12px;
+  .panel-title {
+    font-size: 15px;
   }
 
   .advantages__image {
@@ -856,7 +887,13 @@ ul {
   .form__img {
     width: 80%;
     margin-left: 10%;
+    padding-top: 80%;
   }
+
+  ::placeholder {
+    font-size: 15px;
+  }
+
  }
 
  @media (max-width: 525px) {
@@ -929,12 +966,20 @@ ul {
     display: none;
    }
 
+   .header__main {
+     font-size: 24px;
+   }
+
+   .header__motto {
+     font-size: 10px;
+   }
+
    .header__link {
-     margin-left: 30%;
+     margin-left: 35%;
    }
 
    .header__container {
-     padding-bottom: 25%;
+     padding-bottom: 15%;
    }
 
   .student__block {
@@ -962,7 +1007,10 @@ ul {
   }
 
   .student-advantages__container {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
   }
 
   .student__arrow {
@@ -975,12 +1023,13 @@ ul {
 
   .advantages__block {
     width: 100%;
-    margin-left: 30%;
     margin-top: 10%;
   }
 
   .life__container {
     display: inline-block;
+    padding-bottom: 10%;
+    margin-bottom: 7%;
   }
 
   .life__headline {
@@ -997,33 +1046,25 @@ ul {
     margin-top: 25%;
   }
 
-  .emp__block {
-    flex-direction: column;
+  .faq-header {
+    font-size: 20px;
+    padding-bottom: 7%;
   }
 
-  .emp-img__container {
-    order: -1;
+  .panel-title {
+    font-size: 12px;
   }
 
-  .emp__img {
-    width: 70%;
-    margin-left: 15%;
+  .plus {
+    font-size: 28px;
   }
 
-  .emp-text__container {
-    padding-left: 20%;
+  .forn__headline {
+    font-size: 20px;
   }
 
-  .emp__button {
-    margin-left: 23%;
-  }
-
-  .emp-advantages__container {
-    display:inline-block;
-  }
-
-  .emp__advantages {
-    padding-bottom: 10%;
+  .form__container {
+    padding-top: 0;
   }
 
   .form__img {
@@ -1048,6 +1089,14 @@ ul {
 
   .form__input {
     margin-left: 35%;
+  }
+
+  .footer__copyright {
+    font-size: 10px;
+  }
+
+  .footer__policy {
+    font-size: 10px;
   }
 
  }
@@ -1256,8 +1305,3 @@ ul {
   -webkit-transform-origin: center bottom;
   transform-origin: center bottom;
 }
-
-
-
-
-
