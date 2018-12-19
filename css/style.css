@@ -18,7 +18,7 @@ ul {
 /* Сделать бургер меню */
 
 .header {
-  background-image: linear-gradient(to right top, #5199ff, #4187f0, #3074e0, #1e63d1, #0351c1);
+  background-image: linear-gradient(to right top, #3074e0, #2964c0, #2355a0, #1f4681, #1b3764);;
 }
 
 .header__block {
@@ -111,6 +111,7 @@ ul {
   text-transform: uppercase;
   font-size: 18px;
   box-shadow: 0 8px 0 0 #f1a32f;
+  font-weight: 600;
 }
 
 .main__headline {
