@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +17,6 @@ ul {
   padding: 0;
 }
 
-/* Сделать бургер меню */
 
 .header {
 background: linear-gradient(321deg, #094A94, #387BC8);
@@ -35,6 +35,8 @@ animation: Gradient 7s ease infinite;
   width: 80%;
   margin: 0 auto;
   order: -1;
+  padding-bottom: 8%;
+  padding-left: 2%;
 }
 
 .header__back {
@@ -50,19 +52,19 @@ animation: Gradient 7s ease infinite;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  padding-top: 4%;
 }
 
 .header__logo {
-  padding-top: 20%;
-  color: #7d83a4;
   text-decoration: none;
-  font-size:25px;
   color: white;
+  width: 100%;
+  height: auto;
+
 }
 
 .header__nav {
   width: 40%;
-  padding-top: 4%;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -82,27 +84,22 @@ animation: Gradient 7s ease infinite;
 .nav__item a {
   color: white;
   text-decoration: none;
-}
-
-
-.header__container {
-  padding-bottom: 8%;
+  font-size:22px;
 }
 
 .header__main {
   color: white;
-  text-align: center;
   padding-top: 5%;
   font-size: 68px;
   animation-name: zoomIn;
   animation-duration: 1s;
   margin-bottom: 2%;
+  padding-left: 10%;
 }
 
 .header__motto {
   padding-bottom: 8%;
-  text-align: center;
-  padding-left: 15%;
+  padding-left: 10%;
   padding-right: 15%;
   font-size:21px;
   color: white;
@@ -114,14 +111,19 @@ animation: Gradient 7s ease infinite;
 }
 
 .header__link {
-  margin-left: 40% ;
   padding-left: 3.5%;
   padding-right: 3.5%;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   border-radius: 3%;
   font-weight:600;
+  margin-left: 10%;
 }
+
+.header__container a {
+  text-align: center;
+}
+
 
 .button {
   text-decoration: none;
@@ -179,7 +181,7 @@ animation: Gradient 7s ease infinite;
   text-align: center;
   font-weight: 600;
   margin: 0;
-  padding-top: 4%;
+  padding-top: 2%;
 }
 
 .student__block {
@@ -276,7 +278,17 @@ animation: Gradient 7s ease infinite;
   background-color: #ffdc5a;
   transition: transform .2s;
   border-radius: 15px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.advantages__block img {
+  margin-top: 2%;
+}
+
 
 .advantages__block:hover {
   transform: scale(1.10);
@@ -325,18 +337,8 @@ animation: Gradient 7s ease infinite;
   height: auto;
 }
 
-.emp__for {
-  padding-top:5%;
-}
-
-
 .advantages__block {
   width: 30%;
-}
-
-.advantages__image {
-  padding-left: 38%;
-  padding-top: 5%;
 }
 
 .advantages__text {
@@ -355,6 +357,7 @@ animation: Gradient 7s ease infinite;
   font-size: 30px;
   font-weight: 600;
   color: #094A94;
+  margin-bottom: 0;
 }
 
 /* FAQ begin*/
@@ -490,7 +493,7 @@ textarea {
   padding-bottom:10px;
   transition: all 0.3s;
   margin-top:-4px;
-  font-weight:700;
+  font-weight:600;
 }
 [type="submit"]:hover { background:#ffdc5a; }
 
@@ -509,7 +512,7 @@ textarea {
 }
 
 .footer__container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   padding:1% 0%;
   display: flex;
@@ -520,12 +523,14 @@ textarea {
   text-align: center;
   color: white;
   font-size: 18px;
+  margin: 0;
+  padding-top: 2%;
 }
 
 .footer__policy {
   text-decoration: none;
   color: white;
-  padding-top: 1.7%;
+  padding-top: 2%;
 }
 
 .footer__policy:hover {
@@ -540,7 +545,14 @@ textarea {
   display: flex;
   justify-content: space-between;
   padding-top: 1%;
-  width: 12%;
+}
+
+.footer__li {
+  padding-right: 6px;
+}
+
+.footer__list ul {
+  padding-right: 5px;
 }
 
 .footer__icon:hover {
@@ -549,10 +561,6 @@ textarea {
 
 
 @media (max-width: 991.98px) {
-
-  .header__logo {
-    font-size:23px;
-  }
 
   .header__nav {
     margin-left: 42%;
@@ -668,10 +676,6 @@ textarea {
 }
 
 @media (max-width: 767.98px) {
-
-  .header__logo {
-    font-size:20px;
-  }
 
   .header__nav {
     margin-left: 35%;
@@ -810,7 +814,7 @@ textarea {
   }
 
   .student-text__container {
-    width: 100%;
+    width: auto;
   }
 
   .student__arrow {
@@ -843,7 +847,7 @@ textarea {
   }
 
   .advantages__text {
-    font-size:10px;
+    font-size:12px;
   }
 
   .life__wrapper {
@@ -886,10 +890,6 @@ textarea {
     font-size: 15px;
   }
 
-  .footer__policy {
-    padding-top: 3.7%;
-  }
-
  }
 
 @media (max-width: 525px) {
@@ -912,7 +912,6 @@ textarea {
 
   .header__link {
      font-size: 10px;
-     margin-left: 25%;
   }
 
   .student__text {
@@ -958,17 +957,20 @@ textarea {
  }
 
  @media (max-width: 480px) {
-   /*сделать бургер меню */
   .header__nav {
     display: none;
    }
 
    .header__main {
      font-size: 33px;
-     padding-top: 0;
+     padding-top: 15%;
    }
 
    .header__img {
+     display: none;
+   }
+
+   .header__img--block {
      display: none;
    }
 
@@ -976,21 +978,64 @@ textarea {
      font-size: 14px;
    }
 
-   .header__link {
-     margin-left: 40%;
-   }
-
    .header__container {
      padding-bottom: 15%;
      padding-top: 0;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .header__container a,
+   .student__button,
+   .life__button  {
+     font-size: 16px;
+     padding: 10px 12px;
+     margin: 0;
+   }
+
+   .life__button {
+     margin: 0;
+   }
+
+   .life__headline {
+     padding-left: 0%;
+   }
+
+   .life__wrapper {
+     display: -webkit-flex;
+     display: -ms-flex;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+   }
+
+   .plus {
+     font-size: 22px;
+   }
+
+   .header__arrow {
+     width: 10%;
    }
 
   .advantages__image {
-    padding-left: 23%;
+    padding-left: 0%;
   }
 
   .student__block {
     display:inline-block;
+  }
+
+  .student__headline {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .faq-header {
+    font-size: 26px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .student__img {
@@ -1000,12 +1045,12 @@ textarea {
     width: 70%;
   }
 
-  .student-text__container {
-    padding-left: 7%;
+  .main__headline {
+    font-size: 22px;
   }
 
   .student__button {
-    margin-left: 33%;
+    margin-left: 0;
   }
 
   .student__advantages {
@@ -1016,20 +1061,26 @@ textarea {
   .student-advantages__container {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
+	  align-items: center;
+
   }
 
   .student__arrow {
-    padding-left: 24%;
+    margin-left: 0;
   }
 
   .student__text {
-    font-size: 23px;
+    font-size: 22px;
+    margin-right: 0;
   }
 
-  .advantages__text {
-    display:none;
+  .student-text__container {
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .advantages__block {
@@ -1048,30 +1099,31 @@ textarea {
     font-size: 20px;
   }
 
-  .life__button {
-    margin-left: 45%;
-  }
-
   .life__img {
     width: 70%;
     margin-top: 25%;
   }
 
-  .faq-header {
-    font-size: 20px;
-    padding-bottom: 7%;
-  }
-
   .panel-title {
-    font-size: 12px;
+	  font-size: 12px;
+	  width: 90%;
   }
 
-  .plus {
-    font-size: 28px;
+  .main__headline {
+    font-size: 26px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
+
 
   .footer__container {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .form__container {
+    width: 80%;
+    margin: 0 auto;
   }
 
   .footer_link {
@@ -1080,30 +1132,28 @@ textarea {
 
   .footer__copyright {
     font-size: 17px;
+    margin-left: 0;
   }
 
   .footer__policy {
     font-size: 15px;
-    margin-left: 32%;
   }
 
   .footer__list {
-    margin-left: 36%;
     margin-top: 8%;
+    width: 55%;
   }
-
  }
 
-/* effects */
-
-
-.button:hover {
+ .button:hover {
   background-color: #ffdc5a;
+  color: white;
+  text-decoration: none;
 }
 
 .nav__item a:hover {
   text-decoration: underline;
-  font-weight: 300;
+  color: white;
 }
 
 @keyframes bounceInDown {

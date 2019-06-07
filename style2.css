@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  background-color: #FCFDFF;
+}
+
+.container__info {
+  font-size: 50px;
+  padding-top: 5%;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.container__item {
+  display: block;
+  border: 1px solid white;
+  padding: 20px 30px;
+  margin: 40px;
+  color: white;
+  text-decoration: none;
+  font-size:24px;
+  text-align: center;
+  background-color: #48B8D0;
+}
+
+.container__item:hover {
+  background-color: #8AE1FC;
+}
+
+.container_back {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(321deg, #094A94, #387BC8);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 7s ease infinite;
+  -moz-animation: Gradient 7s ease infinite;
+  animation: Gradient 7s ease infinite;
+  height:1200px;
+}
+
+.cont {
+  padding-top: 5%;
+}
+
+.send_button {
+  margin-top: 40%;
+}
+
+.text__form {
+  color: white;
+}
+
+
+@media (min-width: 992px) {
+  .container__info {
+    font-size: 42px;
+  }
+ }
+
+@media (min-width: 576px) {
+  .container__info {
+    font-size: 18px;
+  }
+ }
+
+@media (min-width: 768px) {
+  .container__info {
+    font-size: 24px;
+  }
+}
+
+
+/*policy*/
+
+.container__policy {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(321deg, #094A94, #387BC8);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 7s ease infinite;
+  -moz-animation: Gradient 7s ease infinite;
+  animation: Gradient 7s ease infinite;
+  height:auto;
+}
+
+.container__headline {
+  font-size: 24px;
+  padding-top: 0%;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.container__text {
+  font-size: 16px;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
